@@ -1,0 +1,3 @@
+Los test del ejercicio fueron validados con exito de acuerdo a los requerimientos planeados.
+
+Utilice dos herramientas diferentes para resolver los ejercicios planteados.
