@@ -1,11 +1,11 @@
 Feature: Validacion de Inicio de sesion
 
   Background:
-    * url "https://api.demoblaze.com"
+    * url api.mainUrl
     * path "/login"
 
   Scenario: Validacion exitosa
-    And request { "username": "hp2022", "password": "2022" }
+    And request { "username": "#(user.name)", "password": "#(user.pass)" }
     When method post
     Then status 200
     And match $ contains "Auth_token:"
