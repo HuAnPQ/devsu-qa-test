@@ -7,7 +7,7 @@ function fn() {
             mainUrl: 'https://api.demoblaze.com'
         },
         user: {
-            name: 'hp2022',
+            name: 'hp2022_1',
             pass: '2022'
         }
     };
